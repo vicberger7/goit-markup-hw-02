@@ -1,6 +1,7 @@
 body {
 font-family: 'Roboto', sans-serif;
-color: #4D5AE5;
+color: #434455;
+background-color: #FFFFFF;
 }
 
 .list {
@@ -34,18 +35,18 @@ overflow: hidden;
 }
 
 .header-logo {
-var(--NAVY-BLUE, #2E2F42) ;
-font-family: Raleway;
+color: #4d5ae5;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16; 
+line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .header-logo-part
 {
-color: var(--IRIS, #4D5AE5) ;
+color: #2e2f42;
 }
 
 .header-menu {
@@ -62,13 +63,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.header-menu-link:active {
+.header-menu-link:hover 
+.header-menu-link:focus {
 color: #404BBF;
 text-decoration: underline;
 
 }
 
 .header-social {
+  font-style: normal;
 }
 
 .header-social-item {
@@ -85,9 +88,16 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 } 
+.header-social-link:hover
+.header-social-link:focus {
+color: var(--OCEAN, #404BBF);
+}
 
-.header-social-link:active {
-  color: var(--OCEAN, #404BBF);
+.header-social-number {
+color: var(--SLATE, #434455);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 /* hero */
@@ -117,15 +127,16 @@ letter-spacing: 0.04em;
 cursor: pointer;
 }
 
-.hero-buy-btn:hover {
+.hero-buy-btn:hover
+.hero-buy-btn:focus {
 background-color: var(--OCEAN, #404BBF); 
-color: var(--WHITE, #FFF);
 }
 
 
 /* features */
 
 .features {
+  
 }
 
 .visually-hidden {
@@ -165,7 +176,9 @@ letter-spacing: 0.02em;
 /* team */
 
 .team {
+  background-color: #F4F4FD;
 }
+
 .team-title {
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
@@ -176,6 +189,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .team-list {
+  background-color: #FFFFFF;
 }
 .team-item {
 }
@@ -227,6 +241,7 @@ font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
 }
+
 .portfolio-sevice-description {
 color: var(--SLATE, #434455);
 font-size: 16px;
@@ -234,25 +249,29 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
+
+
+
 .footer {
   background: var(--NAVY-BLUE, #2E2F42);
 }
+
 .footer-logo{
-color: var(--CLOUD, #F4F4FD);
+font-family: "Raleway", sans-serif;
+color: #4d5ae5;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 .footer-logo-part {
-color: var(--IRIS, #4D5AE5);
+color: #f4f4fd;
 }
 
 .footer-text {
-  color: var(--CLOUD, #F4F4FD);
-
-
+color: var(--CLOUD, #F4F4FD);
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
