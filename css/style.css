@@ -99,7 +99,7 @@ letter-spacing: 0.02em;
 color: #404BBF;
 }
 
-.header-social-number {
+.header-social-link-number {
 color: var(--SLATE, #434455);
 font-size: 16px;
 line-height: 1.5;
@@ -185,7 +185,8 @@ text-transform: capitalize;
 .team-list {
 background-color: #FFFFFF;
 }
-.team-item {
+.team-item-mark {
+  background-color: #FFFFFF
 }
 
 .team-img {
