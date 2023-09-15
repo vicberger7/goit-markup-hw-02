@@ -37,10 +37,23 @@ text-transform: uppercase;
 color: #2e2f42;
 }
 
-.header-menu {
+.header-menu-list {
+
 }
 
-.header-menu-item {
+.header-menu-item-studio {
+  color: var(--NAVY-BLUE, #2E2F42);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+
+.header-menu-item-studio:hover {
+  color: #404bbf;
+}
+.header-menu-item-studio:focus {
+  color: #404bbf;
 }
 
 .header-menu-link {
@@ -78,9 +91,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 } 
 
-.header-social-link:hover,
+.header-social-link:hover {
+  color: #404BBF;
+}
+
 .header-social-link:focus {
-color: var(--OCEAN, #404BBF);
+color: #404BBF;
 }
 
 .header-social-number {
