@@ -51,10 +51,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover 
+.header-menu-link:hover {
+  color: #404BBF
+}
 .header-menu-link:focus {
 color: #404BBF;
-text-decoration: underline;
 
 }
 
@@ -76,7 +77,8 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 } 
-.header-social-link:hover
+
+.header-social-link:hover,
 .header-social-link:focus {
 color: var(--OCEAN, #404BBF);
 }
@@ -117,7 +119,7 @@ cursor: pointer;
 
 .hero-buy-btn:hover,
 .hero-buy-btn:focus {
-background-color: var(--OCEAN, #404BBF); 
+background-color: #404BBF; 
 }
 
 
@@ -165,13 +167,14 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .team-list {
-  background-color: #FFFFFF;
+background-color: #FFFFFF;
 }
 .team-item {
-  background-color: #FFFFFF
 }
+
 .team-img {
 }
+
 .team-name {
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: left;
